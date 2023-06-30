@@ -1,0 +1,113 @@
+/*importing the same styles*/
+@import "/css-black-panther/libs/variable.css";
+@import "/css-black-panther/libs/fonts.css";
+@import "/css-black-panther/libs/footer.css";
+@import "/css-black-panther/libs/header.css";
+@import "/css-black-panther/libs/animations.css";
+@import "/css-black-panther/libs/popup.css";
+@import "/css-black-panther/libs/responsiveenigme.css";
+
+
+/*background on the entire body of the page*/
+
+body{
+    background:url('/Illustrations/Allpages/arrière_plan.png');
+    background-size: cover;background-repeat: no-repeat;
+    overflow-x: hidden; /*this hide things out of the body page like big images 
+    so there will be no scroll in the bottom of the page*/} 
+
+    #enigme{
+      color: violet;
+    }
+/*setting the section 1 of the page*/
+ .section1{
+    background: url(/Illustrations/Enigme/Pantherenigme1.png);
+
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 110vh;
+   background-position: 0% 100%;
+   background-size: 80%;
+ }
+
+ .section1 h2{
+    padding: 10%  5% 08% 60%;
+    font-size: 250%;
+ }
+
+ 
+ 
+
+ .textsection1{
+    padding: 010%  5% 08% 60%;
+    text-align: justify;
+    background: url(/Illustrations/Enigme/Pantherenigme2.png);   /*OKOEY picture background on section 1, 
+    picture too bad quality in the illustration files so we took in the pdf maquettes*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+ }
+
+ .imagedecosection1{
+    margin: -5%  5% 08% 55%;;
+ }
+
+
+ .section2{
+   margin: 10% 0% 10% 10%;
+ }
+
+ .section2 h2{
+   margin-bottom: 10%;
+   margin-right: 30%;
+ }
+
+ .section2 p{
+   margin-bottom: 2%;
+ }
+
+ .traduction{
+   margin: 5% 50% 0% 0%;
+   color: white;
+ }
+
+ .lesavaistu{
+   margin-left: 20%;
+   margin-top: -10%;
+   text-align: center;
+   margin-right: 10%;
+   padding-bottom: 20%;
+   padding-top: 20%;
+   padding-left: 05%;
+   background:url(/Illustrations/Enigme/Pantherenigme2.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+  
+ }
+/* styling the box for answer*/
+ #rep{
+   border: 1px solid var(--blancfonce);
+   padding: 0.5% 5% 0.5% 2%;
+   border-radius: 20px;
+   background-color: transparent;
+   margin-bottom: 5%;
+ }
+/*styling the button send*/
+ .btn{
+   border: 1px solid var(--blancfonce);
+   border-radius: 20px;
+   background-color: var(--blancfonce);
+   padding: 1% 2% ;
+   margin-left: 5%;
+ }
+/*hover animation on the button send*/
+ .btn:hover{
+  filter: drop-shadow(0 0 10px var(--blancfonce));
+}
+
+#rep{color:white}
+
+
+/* i need more practice in order to master css and html!! another project will be welcomed!!! */

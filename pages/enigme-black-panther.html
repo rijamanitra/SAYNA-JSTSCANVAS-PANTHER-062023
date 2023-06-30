@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RAZAFIARIMANANA Rijamanitra Antonio">
+    <title>enigme black panther page</title>
+    <link rel="stylesheet" href="/css-black-panther/enigme-black-panther.css">
+</head>
+<body>
+    <header >
+        <div class="conteneurheader">
+       
+            <div class="conteneurimageheader">
+                <a href="/acceuil-black-panther.html"><img src="/Illustrations/Allpages/icon_SAYNA.png" alt="saynaicon">
+                    <img src="/Illustrations/Allpages/icon_x.png" alt="x_icon">
+                    <img  src="/Illustrations/Allpages/icon_MARVEL.png" alt="icon_MARVEL"></a>
+            </div>
+            <div class="conteneurmenuheader">
+                
+                    <a href="/acceuil-black-panther.html">ACCEUIL</a>
+                    <a href="/pages/wakanda-black-panther.html">WAKANDA</a>
+                    <a id="enigme" href="#">ENIGME</a>
+               
+            </div>
+         </div>
+    </header>
+    <main>
+        <section class="section1" id="section1">
+            <h2 id="h2">
+                Releve le defi <br>
+                des dora milaje
+            </h2>
+            <div class="textsection1" id="textsection1">
+                <p>
+                Les Dora Milaje sont de farouches guerrières d’élite. Elles constituent la garde 
+                rapprochée du Roi en personne et ont de nombreuses occasions de lui sauver la 
+                vie. Leur Générale, Okoyé est également la dirigeante des forces armées et des 
+                renseignements wakandais.
+
+                Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en Wakandais, 
+                et apprend par la même occasion la première valeur d’une Dora Milaje !
+                </p>
+            </div>
+          
+
+        </section>
+        <section class="section2" id="section2">
+            
+                <h2>
+                    <q>
+                        <span class="citation" id="citation">
+                            SI JE SUIS FIDELE C’EST A CE TRONE 
+                            PEU IMPORTE QUI MONTE DESSUS
+                        </span>
+                    </q>
+
+                    
+                    
+                </h2>
+           
+            
+                <p>
+                    Voici la transicription de l’alphabet :
+                </p>
+                <div class="traduction" id="traduction">
+                    A = <span>A</span>  ;
+                    B = <span>b</span> ; 
+                    C = <span>c</span> ; 
+                    D = <span>d</span> ; 
+                    E = <span>e</span> ; 
+                    F = <span>f</span> ; 
+                    G = <span>g</span> ; 
+                    H = <span>h</span> ; 
+                    I = <span>i</span> ; 
+                    J = <span>j</span> ; 
+                    K = <span>k</span> ; 
+                    L = <span>l</span> ; 
+                    M = <span>m</span> ; 
+                    N = <span>n</span> ; 
+                    O = <span>o</span> ; 
+                    P = <span>p</span> ; 
+                    Q = <span>q</span> ; 
+                    R = <span>r</span> ; 
+                    S = <span>s</span> ; 
+                    T = <span>t</span> ; 
+                    U = <span>u</span> ; 
+                    W = <span>w</span> ; 
+                    X = <span>x</span> ; 
+                    Y = <span>y</span> ; 
+                    Z = <span>z</span> ; 
+                   
+                </div>
+            
+            <div class="lesavaistu" id="lesavaistu">
+                <p>
+                    Le savais tu ? <br>
+                </p>
+
+                <p>
+                    Plusieurs sources s’entendent pour dire que la lettre la plus utilisée en français est 
+                    la lettre E. En pourcentage de fréquence, la lettre est utilisée à 14% dans une 
+                    phrase. Et si tu regardais quel symbole revient le plus souvent ?
+                </p>
+            </div>
+           
+            <div class="reponse">
+                <p>Alors, as tu la réponse?</p>
+
+                <input type="text" id="rep">
+                
+            </div>
+
+            <!-- setting of the html of the popup -->
+            <div >
+                <button type="submit" class="btn" onclick="openPopup()">ENVOYER</button>
+                
+                <div class="popup"id="popup">
+
+                    <h5>Merci!</h5>
+                    <p id="re">Votre réponse a été récue avec succès</p>
+                    <img src="/Illustrations/Enigme/tick.png" alt="">
+                    <button type="button" onclick="closePopup()">ok</button>
+
+                   </div>
+            </div>
+<!-- this is the setting's javascript of  the popup
+it was difficult but i ve done it ! hip hip hourrraaaaa!!!-->
+ <script>
+    let popup = document.getElementById("popup");
+     function openPopup(){
+ popup.classList.add("open-popup");
+    }
+     function closePopup(){
+        popup.classList.remove("open-popup")
+     }
+ </script>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="conteneurfooter" id="conteneurfooter">
+            <div class="decofootergauche">
+                <div class="footer1" id="footer1">
+                    <img src="/Illustrations/Allpages/footer1.png" alt="">
+                    <div class="footer2"><a href="/acceuil-black-panther.html"><img src="/Illustrations/Allpages/footer2.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="conteneurfooterdroite" >
+                <div class="conteneurfooterl1" id="conteneurfooterl1" >
+                    <div class="footer3" id="footer3">
+                        <h5>PAGES</h5>
+                        <div >
+                            <a id="afoot"href="/acceuil-black-panther.html"><p>A propos</p></a> 
+                        <a id="afoot"href="/pages/wakanda-black-panther.html"><p>  Wakanda</p></a>
+                        </div> 
+                       
+                    </div>
+                    <div class="footer4" id="footer4">
+                        <h5>RETROUVEZ NOUS</h5> <br>
+                        <div class="footer5" id="footer5">
+                            <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="/Illustrations/Allpages/footer3.png" alt="">
+                                <img src="/Illustrations/Allpages/footer4.png" alt="">
+                                <img src="/Illustrations/Allpages/footer5.png" alt="">
+                                <img src="/Illustrations/Allpages/footer6.png" alt=""></a>
+                        </div>                        
+                    </div>    
+                </div>
+                <div class="conteneurfooterl2" id="textfoot">
+                       <p>Tous droits réservé</p><div class="point"></div>
+                        <p>Politique de confidentialité</p><div class="point"></div>
+                        <p>Conditions d'utilisation</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>

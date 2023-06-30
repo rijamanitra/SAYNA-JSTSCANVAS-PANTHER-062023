@@ -1,0 +1,25 @@
+/*external ones*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: georgian ;
+   
+}
+*:focus{
+    outline: none;
+}
+
+ /* setting color used on all pages */
+:root{
+   --blue-color:#07338c;
+   --violet-color:#3d2da6;
+   --bleufonce:#021740;
+   --blancfonce:#f2cef2;
+   --grisfonce:#9e91b7;
+   --rosefonce:#df99f2;
+}
+
+
+
+/* i need more practice in order to master css and html!! another project will be welcomed!!! */

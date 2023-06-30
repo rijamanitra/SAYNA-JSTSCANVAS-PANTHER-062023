@@ -1,0 +1,34 @@
+/*responsive page one */
+@media screen and (max-width:900px) {
+    .conteneurheader{gap: 0rem;}
+    .conteneurimageheader{margin-right: 5%;}
+    .conteneurmenuheader{gap: 1rem;}
+    #sec1{background-size: 70%;
+        background-position: 150% 0%;
+        height: 70vh;}
+    #h1{font-size: 1.2em;}
+    #h2{font-size: 0.8em;}
+    #sec1contenur p{font-size: 0.6em;
+        text-align: justify;}
+    #conteneurbleu{display: flex;
+        flex-direction: column;
+        height: 250vh;
+        background-color: transparent;align-items: center;}
+    #conteneurbleu h2{text-align: center;}   
+    #personnage{width: 50%;}
+    #sec3{display: flex;flex-direction: column;}
+    #conteneurgauch{width: 100%;}
+    #conteneurdroite{width: 100%;padding-top: 30%;}
+    #conteneurcontact{width: 75%;margin-left: 10%;}
+    #conteneurfooter{display: flex;flex-direction: column;}
+    #conteneurfooterl1{gap: 1%;}
+    #conteneurfooterl1 h5 {font-size: 1em;
+        padding-left: 75%;
+        letter-spacing: 10px;}
+    #textfoot p{font-size: 0.9em;padding: 5% ;}
+    #afoot p{font-size: 1em; padding-left: 50%;padding-top: 15%;} 
+    #footer5{padding-left: 20%;}   
+   
+
+  } 
+  
