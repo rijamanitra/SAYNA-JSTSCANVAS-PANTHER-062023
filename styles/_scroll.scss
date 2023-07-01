@@ -1,0 +1,25 @@
+.lines{
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 1rem;
+    margin-left: 30px;
+}
+.line1{
+    width: 3px;
+    height: 375px;
+    background-color: var(--darkpurple);
+}
+.line3{
+    width: 3px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: var(--darkpurple);
+}
+.social img{
+    margin: 10px 0;
+    transition: .5s all ease-in-out
+}
+.social img:hover{
+    filter: brightness(0) invert(1);
+}

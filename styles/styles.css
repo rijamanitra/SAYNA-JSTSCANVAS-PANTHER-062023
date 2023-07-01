@@ -1,0 +1,707 @@
+.conteneurheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5% 0% 5% 5%;
+  gap: 9rem;
+}
+
+.conteneurimageheader {
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.conteneurimageheader img {
+  transition: 0.5s all ease-in-out;
+}
+
+/*setting the animation on the pic header at the left*/
+/*to be honest, i don t know how to do it! i just took the code on google!!*/
+.conteneurimageheader img:hover {
+  filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+}
+
+.conteneurmenuheader {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.conteneurmenuheader a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* putting the highlight white when cursor is on the menu text     */
+.conteneurmenuheader a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+footer {
+  background: url("/Illustrations/back_footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.conteneurfooter {
+  display: grid; /* could'nt do it in flex mode so it s in grid bod. i'm wondering why? need answers from assessor*/
+  grid-template-columns: 35% 65%;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.decofootergauche:hover {
+  transform: scale(110%);
+}
+
+.footer4 img:hover {
+  transform: scale(110%);
+}
+
+.decofootergauche {
+  transition: 0.5s;
+}
+
+.footer1 {
+  position: relative;
+  text-align: center;
+}
+
+.footer2 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+
+.conteneurfooterl1 {
+  display: flex;
+  gap: 20%;
+}
+
+.conteneurfooterl1 h5 {
+  letter-spacing: 22px;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.footer5 img {
+  padding: 0 5%;
+  width: 18%;
+}
+
+.footer3 p {
+  padding-bottom: 10%;
+}
+
+.footer3 a {
+  text-decoration: none;
+}
+
+.conteneurfooterl2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15%;
+}
+
+/*sitting  dots color separating the words at the of the footer */
+.point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--grisfonce);
+  margin: 0% 5px;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* setting color used on all pages */
+:root {
+  --blue:#07338c;
+  --purple:#3d2da6;
+  --darkblue:#021740;
+  --pink:#f2cef2;
+  --darkpurple:#9e91b7;
+  --darkpink:#df99f2;
+  --backcolor1:#11213f;
+  --backcolor3:#021740;
+  --backcolor2:#0b0b0b;
+}
+
+/* default setting */
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, var(--backcolor1), var(--backcolor2), var(--backcolor3));
+}
+
+/* setting color used on all pages */
+:root {
+  --blue:#07338c;
+  --purple:#3d2da6;
+  --darkblue:#021740;
+  --pink:#f2cef2;
+  --darkpurple:#9e91b7;
+  --darkpink:#df99f2;
+}
+
+/* default setting */
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: white;
+  overflow-x: hidden; /*this hide things out of the body page like big images 
+so there will be no scroll in the bottom of the page*/
+}
+
+/*scroll*/
+.lines {
+  position: fixed;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  margin-left: 30px;
+}
+
+.line1 {
+  width: 3px;
+  height: 375px;
+  background-color: var(--grisfonce);
+}
+
+.line3 {
+  width: 3px;
+  height: 200px;
+  margin-left: 10px;
+  background-color: var(--grisfonce);
+}
+
+.social img {
+  margin: 10px 0;
+  transition: 0.5s all ease-in-out;
+}
+
+.social img:hover {
+  filter: brightness(0) invert(1);
+}
+
+/* setting flex mode on the header */
+#acceuil {
+  color: violet;
+}
+
+/* styling section one of the home page */
+.sec1 {
+  background: url(/Illustrations/1_Landing_page/Pantherhome1..png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 150% 50%;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.sec1contenur {
+  width: 50%;
+  padding-left: 5%;
+}
+
+h1 {
+  font-family: "panthera";
+  font-weight: normal;
+  color: var(--darkpurple);
+  font-size: 4.25em;
+}
+
+h2 {
+  font-family: "beyno";
+  font-weight: normal;
+  color: var(--darkpurple);
+  font-size: 2.25em;
+}
+
+p {
+  font-family: "cantarell";
+}
+
+/*SECTION 2*/
+/* styling section two of the home page */
+.conteneurbleu {
+  background-color: var(--darkblue);
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.conteneurkilmog, .conteneurokoy {
+  padding: 2%;
+}
+
+.conteneurkilmog h2, .conteneurokoy h2 {
+  font-size: 1.2em;
+}
+
+.conteneurkilmog p, .conteneurokoy p {
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+/* styling section three of the home page */
+.sec3 {
+  display: flex;
+  margin: 10%;
+}
+
+.conteneurgauch {
+  width: 60%;
+  text-align: justify;
+  margin: 5%;
+}
+
+.conteneurdroite {
+  width: 40%;
+}
+
+.whiteconteneur {
+  background-color: white;
+  color: var(--darkblue);
+  position: relative;
+  height: 45%;
+  margin-top: 60%;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+
+.whiteconteneur img {
+  width: 80%;
+  position: absolute;
+  top: -45%;
+  left: 10%;
+}
+
+.contenttext {
+  padding-top: 55%;
+  padding-left: 13%;
+}
+
+.contenttext h3 {
+  font-size: 1.5em;
+  color: black;
+  padding-left: 30%;
+}
+
+.violetdescrip {
+  display: flex;
+}
+
+.violetdescrip div {
+  background-color: var(--purple);
+  margin: 5% 2%;
+  padding: 2%;
+  border-radius: 5px;
+  color: white;
+}
+
+.contenttext p {
+  color: black;
+}
+
+.sec3 h2 {
+  font-size: 1.2rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.sec3 p {
+  font-size: 0.7em;
+}
+
+#decosec3 {
+  width: 90%;
+}
+
+.section4 {
+  background: url(/Illustrations/Accueil/Pantherhome7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.conteneurcontact {
+  background: linear-gradient(to bottom, white, transparent);
+  width: 50%;
+  border-radius: 10%;
+  margin-top: 10%;
+  margin-left: 20%;
+  padding: 5% 10%;
+}
+
+input, textarea {
+  background: none;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 2%;
+  border: 1px solid var(--darkblue);
+  width: 100%;
+}
+
+::-moz-placeholder {
+  color: var(--darkblue);
+}
+
+::placeholder {
+  color: var(--darkblue);
+}
+
+/*specific fonts formulaire*/
+.form1 {
+  color: var(--darkblue);
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.form2 {
+  color: var(--darkblue);
+  text-align: center;
+  font-size: 2.5em;
+}
+
+/*now the buttons*/
+.envoyer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.envoyer .btn {
+  color: var(--darkblue);
+  text-decoration: none;
+  background-color: var(--darkpurple);
+  padding: 2% 5%;
+  border-radius: 28px;
+  transition: 0.25s all ease-in-out;
+}
+
+.envoyer .btn:hover {
+  filter: drop-shadow(0 0 10px var(--darkpurple));
+}
+
+.btn:hover,
+.btn:focus {
+  animation: btn 1s;
+  box-shadow: 0 0 0 0.5em rgba(125, 8, 241, 0.56);
+  cursor: pointer;
+}
+
+@keyframes btn {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.conteneurcontact textarea {
+  background: none;
+  border-radius: 20px;
+}
+
+@font-face {
+  font-family: "panthera";
+  src: url("/fonts/PantheraRegular-MVZ9J.ttf");
+}
+h1 {
+  font-family: "panthera";
+  font-weight: normal;
+  font-size: 68px;
+  color: var(--blancfonce);
+}
+
+@font-face {
+  font-family: "beyno";
+  src: url("/fonts/FontsFree-Net-BEYNO.ttf");
+}
+h2 {
+  font-family: "beyno";
+  color: var(--grisfonce);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "cantarell";
+  src: url("/fonts/Cantarell-Regular.ttf");
+}
+p {
+  font-family: "cantarell";
+  font-size: 16px;
+  color: white;
+}
+
+footer {
+  font-family: "cantarell";
+  font-size: 10px;
+  color: white;
+}
+
+@font-face {
+  font-family: "wakanda4ever";
+  src: url("/fonts/Wakanda4Ever-gxg5p.ttf");
+}
+@font-face {
+  font-family: "wakandaforeverregular";
+  src: url("/fonts/WakandaForever-Regular.ttf");
+}
+span {
+  font-family: wakandaforeverregular;
+  font-size: 32px;
+  color: var(--blancfonce);
+}
+
+.conteneurmenuheader a {
+  font-family: "beyno";
+  color: var(--grisfonce);
+  font-weight: normal;
+}
+
+.popup {
+  background-color: var(--blancfonce);
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  top: 0;
+  left: 50%;
+  border-radius: 30px;
+  border-color: rgb(64, 12, 112);
+  transform: scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s top 0.4s;
+  transform: translate(-50%, -50%);
+}
+
+.popup img {
+  width: 70px;
+  top: 0%;
+  left: 35%;
+  position: absolute;
+}
+
+.popup h5 {
+  padding-top: 70px;
+  color: rgb(6, 2, 10);
+}
+
+.popup p {
+  color: rgb(13, 2, 16);
+  font-size: 12px;
+}
+
+.popup button {
+  width: 150px;
+  background-color: rgba(154, 18, 212, 0.715);
+}
+
+.open-popup {
+  transform: scale(1);
+  visibility: visible;
+  top: 50%;
+}
+
+.lines {
+  position: fixed;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  margin-left: 30px;
+}
+
+.line1 {
+  width: 3px;
+  height: 375px;
+  background-color: var(--darkpurple);
+}
+
+.line3 {
+  width: 3px;
+  height: 200px;
+  margin-left: 10px;
+  background-color: var(--darkpurple);
+}
+
+.social img {
+  margin: 10px 0;
+  transition: 0.5s all ease-in-out;
+}
+
+.social img:hover {
+  filter: brightness(0) invert(1);
+}
+
+/* violet color menu when we are in the page    */
+#wakanda {
+  color: violet;
+}
+
+/* setting the cover blue dark body    */
+/* setting the picture cover in section 1   */
+.section1 {
+  background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg"); /* i was struggling to set the original pic in the illustration file.
+it was complete in the right part of the pic so i changed the pic by another one */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* setting the cover blue dark body    */
+.section1 h1 {
+  padding: 5% 0 2% 5%;
+}
+
+.section1 span {
+  padding: 0% 0 5% 5%;
+}
+
+.section1 p {
+  padding: 3% 0 5% 5%;
+  width: 40%;
+  text-align: justify;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: justify;
+  padding-top: 0%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+#image1sec2 {
+  position: absolute;
+  width: 90%;
+}
+
+.section2left {
+  margin-top: 10%;
+}
+
+.section2right {
+  margin-top: 10%;
+  width: 50%;
+}
+
+h3 {
+  font-family: "beyno";
+  color: var(--grisfonce);
+  font-weight: normal;
+  padding: 5% 0;
+}
+
+#enigme {
+  color: violet;
+}
+
+/*setting the section 1 of the page*/
+.section1 {
+  background: url(/Illustrations/Enigme/Pantherenigme1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+  background-position: 0% 100%;
+  background-size: 80%;
+}
+
+.section1 h2 {
+  padding: 10% 5% 8% 60%;
+  font-size: 250%;
+}
+
+.textsection1 {
+  padding: 10% 5% 8% 60%;
+  text-align: justify;
+  background: url(/Illustrations/Enigme/Pantherenigme2.png); /*OKOEY picture background on section 1, 
+picture too bad quality in the illustration files so we took in the pdf maquettes*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.imagedecosection1 {
+  margin: -5% 5% 8% 55%;
+}
+
+.section2 {
+  margin: 10% 0% 10% 10%;
+}
+
+.section2 h2 {
+  margin-bottom: 10%;
+  margin-right: 30%;
+}
+
+.section2 p {
+  margin-bottom: 2%;
+}
+
+.traduction {
+  margin: 5% 50% 0% 0%;
+  color: white;
+}
+
+.lesavaistu {
+  margin-left: 20%;
+  margin-top: -10%;
+  text-align: center;
+  margin-right: 10%;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  padding-left: 5%;
+  background: url(/Illustrations/Enigme/Pantherenigme2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* styling the box for answer*/
+#rep {
+  border: 1px solid var(--blancfonce);
+  padding: 0.5% 5% 0.5% 2%;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-bottom: 5%;
+}
+
+/*styling the button send*/
+.btn {
+  border: 1px solid var(--blancfonce);
+  border-radius: 20px;
+  background-color: var(--blancfonce);
+  padding: 1% 2%;
+  margin-left: 5%;
+}
+
+/*hover animation on the button send*/
+.btn:hover {
+  filter: drop-shadow(0 0 10px var(--blancfonce));
+}
+
+#rep {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

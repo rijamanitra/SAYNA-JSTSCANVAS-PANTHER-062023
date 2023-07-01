@@ -1,0 +1,255 @@
+/* setting color used on all pages */
+:root{
+    --blue:#07338c;
+    --purple:#3d2da6;
+    --darkblue:#021740;
+    --pink:#f2cef2;
+    --darkpurple:#9e91b7;
+    --darkpink:#df99f2;
+  }
+  
+  /* default setting */
+  *{
+    list-style: none;
+    text-decoration: none;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  
+  
+  body{
+   font-size: 16px;color: white;
+    overflow-x: hidden; /*this hide things out of the body page like big images 
+    so there will be no scroll in the bottom of the page*/
+  } 
+  
+  
+      
+    
+  
+  /*scroll*/
+  
+  .lines{
+      position: fixed;
+      top: 0;
+      display: flex;
+      gap: 1rem;
+      margin-left: 30px;
+  }
+  .line1{
+      width: 3px;
+      height: 375px;
+      background-color: var(--grisfonce);
+  }
+  .line3{
+      width: 3px;
+      height: 200px;
+      margin-left: 10px;
+      background-color: var(--grisfonce);
+  }
+  .social img{
+      margin: 10px 0;
+      transition: .5s all ease-in-out
+  }
+  .social img:hover{
+      filter: brightness(0) invert(1);
+  }
+  /* setting flex mode on the header */
+  
+  #acceuil{
+    color: violet;
+  }
+  
+   /* styling section one of the home page */
+  
+  .sec1{
+    background: url(/Illustrations/1_Landing_page/Pantherhome1..png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 150% 50%;
+    height: 100vh;
+    padding-top: 10%;
+  }
+  
+  .sec1contenur{
+    width: 50%;
+    padding-left: 5%;
+    
+  }
+  
+  h1{
+    font-family:"panthera" ;
+    font-weight: normal;
+    color: var(--darkpurple);
+    font-size: 4.25em;
+  }
+  
+  h2{
+    font-family: "beyno";
+    font-weight: normal;
+    color: var(--darkpurple);
+    font-size: 2.25em;
+  }
+  
+  p{
+    font-family: "cantarell";
+  }
+  
+  
+  /*SECTION 2*/
+  /* styling section two of the home page */
+  
+  .conteneurbleu{
+    background-color:var(--darkblue);
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    margin-left: 7%;margin-top: 5%;margin-bottom: 5%;
+  }
+  
+  .conteneurkilmog ,.conteneurokoy{
+    padding: 2%;
+  }
+  
+  .conteneurkilmog h2,.conteneurokoy h2{
+    font-size: 1.2em;
+  }
+  
+  .conteneurkilmog p,.conteneurokoy p{
+    font-size: 0.8em;text-align: justify;
+  }
+  
+  /* styling section three of the home page */
+  
+   .sec3{
+      display: flex;
+      margin: 10%;
+  }
+  
+  .conteneurgauch{
+      width: 60%;
+      text-align: justify;
+      margin: 5%;
+  }
+  
+  .conteneurdroite{
+      width: 40%;
+  }
+  
+  .whiteconteneur{background-color:white ;
+      color: var(--darkblue);
+      position: relative;height: 45%;margin-top: 60%;margin-bottom: 10%;border-radius: 10px;
+  
+  }
+  
+  .whiteconteneur img{
+      width: 80%; position: absolute;top: -45%;left: 10%;
+  }
+  .contenttext{
+      padding-top: 55%;padding-left: 13%;
+  }
+  
+  .contenttext h3{
+      font-size: 1.5em; color: black;padding-left: 30%;
+  }
+  
+  .violetdescrip {
+     display: flex; 
+  }
+  .violetdescrip div{background-color: var(--purple);
+      margin: 5% 2%;
+      padding: 2% ;
+      border-radius: 5px;
+      color: white;
+  
+  }
+  .contenttext p{color: black;}
+  
+  .sec3 h2{
+      font-size: 1.2rem;
+       padding-top: 5%;padding-bottom: 5%;
+  }
+  
+  .sec3 p{
+      font-size: 0.7em;
+  }
+  
+  #decosec3{width: 90%;} 
+  
+   .section4{background: url(/Illustrations/Accueil/Pantherhome7.png);
+    background-size: cover;background-repeat: no-repeat;
+    width: 100%;padding-bottom: 5%;
+  
+    
+  
+   }
+  
+   .conteneurcontact{
+    background: linear-gradient(to bottom,white,transparent);
+    width: 50%;
+    border-radius :10% ;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 5% 10%;
+   }
+  
+   input, textarea{
+    background: none;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 2%;
+    border: 1px solid var(--darkblue);
+    width: 100%;
+   }
+   ::placeholder{
+    color: var(--darkblue);
+   }
+    /*specific fonts formulaire*/
+    .form1{
+      color: var(--darkblue);
+      text-align: center;
+      font-size: .8em;
+    }
+    .form2{
+      color: var(--darkblue);
+      text-align: center;
+      font-size: 2.5em;
+    }
+      /*now the buttons*/
+      .envoyer{
+        text-align: center;
+        margin-top: 5%;
+      }
+      .envoyer .btn{
+        color: var(--darkblue);
+        text-decoration: none;
+        background-color: var(--darkpurple);
+        padding: 2% 5%;
+        border-radius: 28px;
+        transition: .25s all ease-in-out;
+      }
+      .envoyer .btn:hover{
+        filter: drop-shadow(0 0 10px var(--darkpurple));
+      }
+  
+      .btn:hover,
+      .btn:focus {
+        animation: btn 1s;
+        box-shadow: 0 0 0 0.5em rgba(125, 8, 241, 0.56);
+        cursor: pointer;
+      }
+      
+      @keyframes btn {
+        0% { box-shadow: 0 0 0 0 var(--hover); }
+      }
+  
+  
+  
+   .conteneurcontact textarea{
+    background: none;border-radius: 20px;
+   }
+  

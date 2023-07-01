@@ -1,0 +1,68 @@
+@font-face {
+    font-family:'panthera' ;
+    src: url('/fonts/PantheraRegular-MVZ9J.ttf');
+  }
+  
+  h1{
+    font-family:'panthera';
+    font-weight: normal;
+    font-size:68px; 
+    color:var(--blancfonce);
+  }
+  
+  
+  
+  
+  
+  @font-face{
+     font-family: 'beyno';
+     src: url('/fonts/FontsFree-Net-BEYNO.ttf');
+     
+  }
+  
+  h2{
+    font-family: 'beyno';
+    color: var(--grisfonce);
+    font-weight: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'cantarell';
+    src: url('/fonts/Cantarell-Regular.ttf');
+  }
+  
+  p{
+    font-family:'cantarell';
+    font-size:16px; 
+    color:white;
+  }
+  footer{
+    font-family:'cantarell';
+    font-size:10px; 
+    color:white;
+  }
+  
+  @font-face{
+     
+    font-family: 'wakanda4ever';
+    src: url('/fonts/Wakanda4Ever-gxg5p.ttf');
+  }
+  
+  @font-face{
+    font-family: 'wakandaforeverregular';
+    src: url('/fonts/WakandaForever-Regular.ttf');
+  }
+  
+  span{
+    font-family:wakandaforeverregular ;
+    font-size: 32px;
+    color: var(--blancfonce);
+  }
+  
+  .conteneurmenuheader a{
+    font-family: 'beyno';
+    color: var(--grisfonce);
+    font-weight: normal;
+  }

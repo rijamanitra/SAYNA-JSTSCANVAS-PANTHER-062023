@@ -1,0 +1,74 @@
+
+footer{
+    background: url('/Illustrations/back_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;}
+   
+
+.conteneurfooter{
+    display: grid;               /* could'nt do it in flex mode so it s in grid bod. i'm wondering why? need answers from assessor*/
+    grid-template-columns: 35% 65%;
+    justify-content: center;
+    padding: 5% 0;
+    
+}
+
+
+.decofootergauche:hover{
+   transform: scale(110%);
+}
+
+.footer4 img:hover{
+    transform: scale(110%); 
+}
+
+.decofootergauche{
+    transition: 0.5s;
+}
+
+.footer1{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.footer2{
+    position: absolute;top: 45%;left: 35%;
+
+}
+.conteneurfooterl1{
+    display: flex;gap: 20%;
+}
+
+.conteneurfooterl1 h5{
+    letter-spacing: 22px;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+.footer5 img {
+    padding: 0 5%;
+    width: 18%;
+}
+
+.footer3 p{
+    padding-bottom: 10%;
+}
+
+.footer3 a{
+    text-decoration: none;}
+
+
+.conteneurfooterl2 {
+    display: flex;flex-direction: row;
+    align-items: center;margin-top: 15%;
+}
+
+/*sitting  dots color separating the words at the of the footer */
+.point{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--grisfonce);
+    margin: 0% 5px;}

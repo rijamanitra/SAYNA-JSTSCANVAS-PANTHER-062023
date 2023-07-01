@@ -1,0 +1,43 @@
+
+*:focus{
+    outline: none;
+}
+
+ /* setting color used on all pages */
+
+
+
+
+
+:root{
+    --blue:#07338c;
+    --purple:#3d2da6;
+    --darkblue:#021740;
+    --pink:#f2cef2;
+    --darkpurple:#9e91b7;
+    --darkpink:#df99f2;
+    // root of page background
+    --backcolor1:#11213f;
+    --backcolor3:#021740;
+    --backcolor2:#0b0b0b;
+  }
+  
+  /* default setting */
+  *{
+    list-style: none;
+    text-decoration: none;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ 
+  //setting the background page radial gradient. 
+  
+  body{background:linear-gradient( 145deg, var(--backcolor1), var(--backcolor2), var(--backcolor3));}
+
+ // https://mycolor.space/gradient3?ori=to+left+top&hex=%2311213F&hex2=%230B0B0B&hex3=%23021740&submit=submit
+
+  //body{ background:  linear-gradient(to left top, #11213f, #151d35, #15192b, #151522, #121119, #111019, #110f1a, #100e1a, #111023, #10132c, #0b1536, #021740);}
+  
+  

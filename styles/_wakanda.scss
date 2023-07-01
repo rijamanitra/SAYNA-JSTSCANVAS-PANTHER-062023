@@ -1,0 +1,60 @@
+ /* violet color menu when we are in the page    */
+ #wakanda{
+    color: violet;
+  }
+  
+  /* setting the cover blue dark body    */
+ 
+  
+  /* setting the picture cover in section 1   */
+  
+   .section1{
+          background: url("/Illustrations/Wakanda/Pantherrwakanda1.jpg");   /* i was struggling to set the original pic in the illustration file.
+          it was complete in the right part of the pic so i changed the pic by another one */
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh; } 
+  
+          /* setting the cover blue dark body    */
+   .section1 h1{
+    padding:5% 0 2% 5% ;
+   }
+   .section1 span{
+    padding:0% 0 5% 5% ;
+    
+   }
+   .section1 p{
+    padding:3% 0 5% 5% ;
+    width: 40%;
+    text-align: justify;
+   }
+  
+    .section2{
+     display: flex;flex-direction: row;gap: 2rem;text-align: justify;padding-top: 0%;margin-left: 5%;margin-right: 10%;
+           }
+  
+  
+    #image1sec2{
+      position: absolute;width: 90%;
+    }       
+  
+    .section2left{
+      margin-top: 10%;
+     
+    }
+  
+    .section2right{
+      margin-top: 10%;
+      width: 50%;
+      
+      
+    }
+  
+    h3{
+      font-family: 'beyno';
+    color: var(--grisfonce);
+    font-weight: normal;
+    padding: 5% 0;
+    }
+  
+  
