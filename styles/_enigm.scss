@@ -2,7 +2,7 @@
     color: violet;
   }
 /*setting the section 1 of the page*/
-.section1{
+.section1enigm{
   background: url(/Illustrations/Enigme/Pantherenigme1.png);
 
   background-size: cover;
@@ -10,24 +10,26 @@
  height: 110vh;
  background-position: 0% 100%;
  background-size: 80%;
-}
 
-.section1 h2{
+
+ h2{
   padding: 10%  5% 08% 60%;
   font-size: 250%;
-}
+}}
 
 
 
 
 .textsection1{
-  padding: 010%  5% 08% 60%;
+  padding: 010%  5% 02% 60%;
   text-align: justify;
   background: url(/Illustrations/Enigme/Pantherenigme2.png);   /*OKOEY picture background on section 1, 
   picture too bad quality in the illustration files so we took in the pdf maquettes*/
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+
+  p{font-size: 0.7rem;}
   
 }
 
@@ -36,21 +38,21 @@
 }
 
 
-.section2{
+.section2enigm{
  margin: 10% 0% 10% 10%;
-}
 
-.section2 h2{
+
+ h2{
  margin-bottom: 10%;
  margin-right: 30%;
 }
 
-.section2 p{
+ p{
  margin-bottom: 2%;
-}
+}}
 
 .traduction{
- margin: 5% 50% 0% 0%;
+ margin: 5% 0% 0% 0%;
  color: white;
 }
 
@@ -70,23 +72,37 @@
 }
 /* styling the box for answer*/
 #rep{
- border: 1px solid var(--blancfonce);
- padding: 0.5% 5% 0.5% 2%;
+ border: 1px solid var(--darkpurple);
+ padding: 0.5% 35% 0.5% 2%;
  border-radius: 20px;
  background-color: transparent;
  margin-bottom: 5%;
 }
 /*styling the button send*/
-.btn{
- border: 1px solid var(--blancfonce);
+.btnenvoyer{
+ border: 1px solid var(--darkpurple);
  border-radius: 20px;
- background-color: var(--blancfonce);
+ background-color: var(--darkpurple);
  padding: 1% 2% ;
  margin-left: 5%;
 }
 /*hover animation on the button send*/
-.btn:hover{
-filter: drop-shadow(0 0 10px var(--blancfonce));
+.btnenvoyer:hover{
+filter: drop-shadow(0 0 10px var(--darkpurple));
 }
 
 #rep{color:white}
+
+.enigm1{font-size: 1.2rem;color: var(--darkpurple);text-decoration: underline;margin-bottom: 1%;}
+.text1section2{margin-right: 5%;text-align: justify;margin-bottom: 20%;}
+
+#citation{font-size: 1.2rem;margin-top: 5%;}
+#conteneurTranscript{margin-left: 5%;}
+.conteneurenigm{display: flex;flex-direction: row;width: 100%;}
+.conteneurenigmdroite{width: 50%;}
+.conteneurenigmgauche{width: 50%;}
+#voici{margin-top: 30%;margin-left: 15%;}
+#traductionalphabet{font-size: 0.8rem;margin-left: 15%;
+span{font-size: 0.8rem;}}
+.text1enigm{margin-bottom: 10%;font-size: 0.8rem;}
+.reponse{margin: 10% 0;}

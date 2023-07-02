@@ -67,7 +67,7 @@
    /* styling section one of the home page */
   
   .sec1{
-    background: url(/Illustrations/1_Landing_page/Pantherhome1..png);
+    background: url(/Illustrations/Accueil/Pantherhome1..png);
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: 150% 50%;
@@ -102,26 +102,50 @@
   
   /*SECTION 2*/
   /* styling section two of the home page */
+
+ 
   
+  /* styling section two of the home page
   .conteneurbleu{
     background-color:var(--darkblue);
     display: flex;
     flex-direction: row;
     height: 45vh;
-    margin-left: 7%;margin-top: 5%;margin-bottom: 5%;
+    margin-left: 7%;margin-top: 5%;margin-bottom: 5%;position: relative;
+    
   }
   
-  .conteneurkilmog ,.conteneurokoy{
+  .conteneurNameDescrip1 ,.conteneurNameDescrip2{
     padding: 2%;
   }
   
-  .conteneurkilmog h2,.conteneurokoy h2{
-    font-size: 1.2em;
+  .conteneurNameDescrip1 h2,.conteneurNameDescrip2 h2{
+    font-size: 1.2em;padding-bottom: 5%;color: var(--darkpurple);
   }
   
-  .conteneurkilmog p,.conteneurokoy p{
-    font-size: 0.8em;text-align: justify;
+  .conteneurNameDescrip1 p,.conteneurNameDescrip2 p{
+    font-size: 0.7em;text-align: justify;
   }
+
+  #conteneurImgGauche{height: 120%;margin-top: -2%};
+  #slideImg3{height: 100%;};
+  #slideImg2{height: 100%;}
+  #conteneurImgDroite{position: relative;}
+
+  #btnSlide{background-color:var(--darkblue);color: white;
+    border-radius: 19px;
+    position: absolute;
+    padding: 4px 7px;right:  2%;
+     top: 50%;cursor: pointer;
+     border-color:var(--darkblue) ;transition: .25s all ease-in-out;}
+
+     #btnSlide:hover,
+      .btnSlide:focus {
+        animation: btn 1s;
+        box-shadow: 0 0 0 0.5em rgba(236, 234, 238, 0.56);
+        cursor: pointer;}
+         */
+  
   
   /* styling section three of the home page */
   
@@ -195,7 +219,7 @@
     margin-top: 10%;
     margin-left: 20%;
     padding: 5% 10%;
-   }
+   
   
    input, textarea{
     background: none;
@@ -204,7 +228,7 @@
     margin: 2%;
     border: 1px solid var(--darkblue);
     width: 100%;
-   }
+   }}
    ::placeholder{
     color: var(--darkblue);
    }
@@ -252,4 +276,23 @@
    .conteneurcontact textarea{
     background: none;border-radius: 20px;
    }
+
+
+
+   #h1:hover {
+    transform: scale(110%);
+  }
+  #h2:hover {
+    transform: scale(110%);
+  }
+  #tchallapantherhome5:hover {
+    transform: scale(110%);
+  }
+  #decosec3:hover {
+    transform: scale(110%);
+  }
   
+  
+  #h1,#h2, #tchallapantherhome5, #decosec3{
+    transition: 0.5s;
+  }

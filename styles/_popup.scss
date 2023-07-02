@@ -5,6 +5,7 @@
     visibility: hidden;
     transition: transform 0.4s top 0.4s ;
     transform: translate(-50%,-50%);
+    color: white;
  }
  
  
@@ -12,7 +13,7 @@
  .popup img{width: 70px; top: 0%;left: 35%;
  position: absolute;}
  
- .popup h5{  padding-top: 70px;color: rgb(6, 2, 10);}
+ .popup h5{  padding-top: 70px; }
  .popup p{
    color: rgb(13, 2, 16);font-size: 12px;
  }
@@ -27,3 +28,5 @@
    top:50%
  }
  
+
+ #re, #merci {color:white;}

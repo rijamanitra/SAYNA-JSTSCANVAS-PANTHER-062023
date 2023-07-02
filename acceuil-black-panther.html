@@ -7,6 +7,7 @@
     <meta name="author" content="RAZAFIARIMANANA Rijamanitra Antonio">
     <title>Acceuil black panther page</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <script src="/acceuil.js" defer></script>
 </head>
 <body >
     <div class="lines">
@@ -62,41 +63,42 @@
                 
         
         
-        <section id="sec2">
-            <div class="conteneurbleu" id="conteneurbleu">
-                <img id="personnage" src="/Illustrations/Accueil/Pantherhome2.png" alt="">
-                <div class="conteneurkilmog">
-                    <h2>
-                        KILLMONGER
-                    </h2>
-                    <p>
-                        La sauvagerie de N'Jadaka alors qu'il servait dans une 
-                        unité d'opérations noires de l'armée américaine lui a 
-                        valu le surnom de Killmonger. D’origine Wakandaise, 
-                        et se sentant abandoné par sa nation, il cherche à 
-                        détroner T’Challadans unequête vers le pourvoir. <BR></BR>
-                    </p>
-                    <P>
-                        Voir plus >
-                    </P>
+        <section  class="actorIntroduction" id="sec2">
+            <!-- grid with 6columns
+            -first column empty and the second one contains the first image in the left
+            - the third column is a contener for title and text first description
+            - fourth column is to contain the actor pic 2
+            - fifth column is dedicated to the actor name of the pic in fourth colum
+            -last and sixth column is for pic of actor in the right side-->
+            <div class="vide">
+                
+            </div>
+           
+            <div class="container">
+              
+                <div class="img-1 fade-in" id="selected-image"> 
                 </div>
-               <img id="personnage"src="/Illustrations/Accueil/Pantherhome3.png" alt="">
-               <div class="conteneurokoy">
-                    <h2>
-                        OKOYE
+                <div class="part-1 fade-in">
+                    <h2 class="titre" id="selected-title">   
                     </h2>
-                    <p>
-                        Okoye est le général des Dora Milaje (groupe d’élite 
-                        de femmes guerrières) et le chef des forces armées et 
-                        des renseignements wakandais. Témoin du 
-                        couronnement de T'Challa, elle se joint à lui dans de 
-                        nombreuses aventures. <br> <br>
+                    <p class="text-citation" id="selected-text">
                     </p>
-                    <p>
-                        Voir plus >
+                    <a class="plus" href="">Voir plus ></a>
+                </div>
+                <div class="img-2 fade-in" id="image-2">
+                    <img src="" alt="">
+                </div>
+                <div class="part-2 fade-in">
+                    <h2 class="titre" id="title-2">     
+                    </h2>
+                    <p class="text-citation" id="text-2"> 
                     </p>
-               </div>
-               <img id="personnage"src="/Illustrations/Accueil/Pantherhome4.png" alt="">
+                    <a class="plus" href="">Voir plus ></a>
+                </div>
+                <div class="img-3 fade-in">
+                    <img id="image-3">
+                    <p id="more-person">></p>
+                </div>
             </div>
         </section>
         <section class="sec3" id="sec3">
@@ -198,7 +200,7 @@
             </div>
             <div class="conteneurdroite" id="conteneurdroite">
                 <div class="whiteconteneur" id="whiteconteneur">
-                    <img  src="/Illustrations/Accueil/Pantherhome5.png" alt="">
+                    <img id="tchallapantherhome5" src="/Illustrations/Accueil/Pantherhome5.png" alt="">
                     <div class="contenttext">
                         <h3>
                             T’Challa

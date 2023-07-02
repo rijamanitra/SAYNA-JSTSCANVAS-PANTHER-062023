@@ -1,0 +1,85 @@
+
+section[class="actorIntroduction"] {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+section[class="actorIntroduction"] > div[class='container'] {
+    grid-column: 1/2;
+}
+
+section[class="actorIntroduction"] > div[class='container'] {
+    grid-column: 2/3;
+    padding-left: 10%;
+    height: 17.8vw;
+    width: 100%;
+    background-color: #021740;
+    padding-left: 2%;
+}
+
+section[class="actorIntroduction"] .container {
+    display: grid;
+    grid-template-columns: 4fr 4fr 3fr 4fr 2fr;
+}
+
+section[class="actorIntroduction"] .container .img-1 {
+    grid-column: 1/2;
+}
+
+section[class="actorIntroduction"] .container .img-1 img {
+    height: 25vw;
+    margin-top: -20%;
+}
+
+section[class="actorIntroduction"] .container .part-1 {
+    grid-column: 2/3;
+    padding: 3%;
+    position: relative;
+    text-align: justify;
+}
+
+section[class="actorIntroduction"] .container .img-2 {
+    grid-column: 3/4;
+}
+
+section[class="actorIntroduction"] .container .img-2 img {
+    height: 18vw;
+}
+
+section[class="actorIntroduction"] .container .part-2 {
+    grid-column: 4/5;
+    padding: 3%;
+    position: relative;
+    text-align: justify;
+}
+
+section[class="actorIntroduction"] .container .img-3 {
+    grid-column: 5/6;
+    position: relative;
+}
+
+
+#more-person {
+    padding: 2% 4%;
+    background-color: #021740;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+section[class="actorIntroduction"] .container .img-3 img {
+    height: 18vw;
+}
+
+section[class="actorIntroduction"] .container>div>a[class='plus'] {
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+}
+
+
+.text-citation{font-size: 0.7rem;}
+.plus{text-decoration: none;color: white;}

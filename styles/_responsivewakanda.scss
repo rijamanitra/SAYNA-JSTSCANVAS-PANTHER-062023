@@ -1,0 +1,34 @@
+@media screen and (max-width:900px) {
+    .conteneurheader{gap: 0rem;}
+    .conteneurimageheader{margin-right: 5%;}
+    .conteneurmenuheader{gap: 1rem;}
+    .conteneurimageheader a img {width: 30%;}
+    #conteneurfooter{display: flex;flex-direction: column;}
+    #conteneurfooterl1{gap: 1%;}
+    #conteneurfooterl1 h5 {font-size: 1em;
+        padding-left: 75%;
+        letter-spacing: 10px;}
+    #textfoot p{font-size: 0.9em;padding: 5% ;}
+    #footer1 img {width: 50%;}
+    #afoot p{font-size: 1em; padding-left: 50%;padding-top: 15%;} 
+    #footer5{padding-left: 20%;}  
+    #traduction, #traduction span,#section2 p {font-size: 70%;}
+    #footer3 h5{padding-left: 5%; }
+    #footer4 h5{padding-left: 5%;}
+    .section1{background-size: 20%;background-position: top left;
+        padding: 10% 10%;}
+    #h1{font-size: 150%;}
+    .section1 span{font-size: 100%}
+    #section1 p{font-size: 50%;width:  80%;}
+    #section2{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: justify;
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-right: 10%;}
+    #section2right {width: 100%;} 
+    #wak{width: 100%;}   
+
+  } 
