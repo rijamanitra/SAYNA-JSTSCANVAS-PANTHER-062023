@@ -1,7 +1,7 @@
 let personnageData = [
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide1.png",
+        'src': "./Illustrations/personnage-slide/slide1.png",
         'alt': 'Photo de Killmonger avec ses arme'
       },
       'title': 'KILLMONGER',
@@ -9,7 +9,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide2.png",
+        'src': "./Illustrations/personnage-slide/slide2.png",
         'alt': 'Photo de Dora Milaje'
       },
       'title': 'OKOYE',
@@ -17,7 +17,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide3.png",
+        'src': "./Illustrations/personnage-slide/slide3.png",
         'alt': 'Photo de Killmonger avec ses arme'
       },
       'title': 'SHURI',
@@ -25,7 +25,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide4.png",
+        'src': "./Illustrations/personnage-slide/slide4.png",
         'alt': 'Photo de Nakia'
       },
       'title': 'NAKIA',
@@ -33,7 +33,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide5.png",
+        'src': "./Illustrations/personnage-slide/slide5.png",
         'alt': 'Photo de Ramonda'
       },
       'title': 'RAMONDA',
@@ -41,7 +41,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide6.png",
+        'src': "./Illustrations/personnage-slide/slide6.png",
         'alt': 'Photo de W’kabi'
       },
       'title': 'W’kabi',
@@ -49,7 +49,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide7.png",
+        'src': "./Illustrations/personnage-slide/slide7.png",
         'alt': 'Photo de m’baku'
       },
       'title': 'm’baku',
@@ -57,7 +57,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide8.png",
+        'src': "./Illustrations/personnage-slide/slide8.png",
         'alt': 'Photo de ZURI'
       },
       'title': 'ZURI',
@@ -65,7 +65,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide9.png",
+        'src': "./Illustrations/personnage-slide/slide9.png",
         'alt': 'Photo de EVERETT KENNETH ROSS'
       },
       'title': 'EVERETT KENNETH',
@@ -73,7 +73,7 @@ let personnageData = [
     },
     {
       'image': {
-        'src': "/Illustrations/personnage-slide/slide10.png",
+        'src': "./Illustrations/personnage-slide/slide10.png",
         'alt': 'Photo de ULYSSE KLAUE'
       },
       'title': 'ULYSSE KLAUE',
@@ -265,25 +265,25 @@ let titres = [
 
 
   if ( i===0) {}
-         else if (i===1) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide2.png";
+         else if (i===1) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide2.png";
                              }
 
-         else if ( i===2) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide3.png";
+         else if ( i===2) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide3.png";
                              }
 
-         else if ( i===3) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide4.png";
+         else if ( i===3) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide4.png";
                             }
 
-         else if ( i===4) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide5.png";
+         else if ( i===4) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide5.png";
                             }
 
-         else if ( i===5) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide6.png";
+         else if ( i===5) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide6.png";
                             }
 
-         else if ( i===6) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide7.png";
+         else if ( i===6) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide7.png";
                              }
 
-         else if ( i===7) {imageConteneurGauche.src="/Illustrations/personnage-slide/slide8.png";
+         else if ( i===7) {imageConteneurGauche.src="./Illustrations/personnage-slide/slide8.png";
                              }
 
         
